@@ -7,18 +7,14 @@
     <TieredCompilation>false</TieredCompilation>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationManifest>app.manifest</ApplicationManifest>
-    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <ApplicationManifest>App\app.manifest</ApplicationManifest>
+    <ApplicationIcon>App\Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Icon.ico" />
-    <None Remove="Icon.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Icon.ico">
+    <EmbeddedResource Include="App\Icon.ico">
       <LogicalName>Icon.ico</LogicalName>
     </EmbeddedResource>
-    <EmbeddedResource Include="Icon.bmp">
+    <EmbeddedResource Include="App\Icon.bmp">
       <LogicalName>Icon.bmp</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
